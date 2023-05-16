@@ -22,10 +22,10 @@ function gotResults(error, results) {
     document.getElementById("result_label").style.color = "rgb("+random_number_r+","+random_number_g+","+random_number_r+")";
     document.getElementById("result_confidence").style.color = "rgb("+random_number_r+","+random_number_g+","+random_number_r+")";
 
-    img = document.getElementById('alien1') 
-    img1 = document.getElementById('alien2')
-    img2 = document.getElementById('alien3')
-    img3 = document.getElementById('alien4')
+    img = document.getElementById('alien1'); 
+    img1 = document.getElementById('alien2');
+    img2 = document.getElementById('alien3');
+    img3 = document.getElementById('alien4');
 
     if (results[0].label == "Clap") {
       img.src = 'aliens-01.gif';
